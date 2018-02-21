@@ -1,0 +1,38 @@
+C:\Users\DELL E6420\Desktop\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.exe.config
+C:\Users\DELL E6420\Desktop\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.exe
+C:\Users\DELL E6420\Desktop\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.pdb
+C:\Users\DELL E6420\Desktop\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.csprojResolveAssemblyReference.cache
+C:\Users\DELL E6420\Desktop\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.Inventario.resources
+C:\Users\DELL E6420\Desktop\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.Properties.Resources.resources
+C:\Users\DELL E6420\Desktop\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.csproj.GenerateResource.Cache
+C:\Users\DELL E6420\Desktop\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.exe
+C:\Users\DELL E6420\Desktop\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.pdb
+C:\Users\DELL E6420\Documents\Visual Studio 2015\Projects\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.exe.config
+C:\Users\DELL E6420\Documents\Visual Studio 2015\Projects\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.exe
+C:\Users\DELL E6420\Documents\Visual Studio 2015\Projects\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.pdb
+C:\Users\DELL E6420\Documents\Visual Studio 2015\Projects\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.exe
+C:\Users\DELL E6420\Documents\Visual Studio 2015\Projects\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.pdb
+C:\Users\DELL E6420\Documents\Visual Studio 2015\Projects\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.csprojResolveAssemblyReference.cache
+C:\Users\DELL E6420\Documents\Visual Studio 2015\Projects\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.Inventario.resources
+C:\Users\DELL E6420\Documents\Visual Studio 2015\Projects\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.Properties.Resources.resources
+C:\Users\DELL E6420\Documents\Visual Studio 2015\Projects\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.csproj.GenerateResource.Cache
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.exe.config
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.exe
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.pdb
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.csprojResolveAssemblyReference.cache
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.Inventario.resources
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.Properties.Resources.resources
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.csproj.GenerateResource.Cache
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.csproj.CoreCompileInputs.cache
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.exe
+E:\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.pdb
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.exe.config
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.exe
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\bin\Debug\Programacion_Avanzada.pdb
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.csprojResolveAssemblyReference.cache
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.Empleados.resources
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.Inventario.resources
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.Properties.Resources.resources
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.csproj.GenerateResource.Cache
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.exe
+C:\Users\hayru\Documents\Visual Studio 2017\proyectos\Farmacia\Programacion_Avanzada\Programacion_Avanzada\obj\Debug\Programacion_Avanzada.pdb

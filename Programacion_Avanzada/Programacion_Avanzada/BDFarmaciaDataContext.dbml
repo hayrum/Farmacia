@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Farmacia" Class="BDFarmaciaDataContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-7MJ5ODA\SQLEXPRESS;Initial Catalog=Farmacia;Integrated Security=True" SettingsObjectName="Programacion_Avanzada.Properties.Settings" SettingsPropertyName="Conexion" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.Agregar" Method="Agregar">
+    <Parameter Name="IdProducto" Parameter="idProducto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Tipo" Parameter="tipo" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Descripcion" Parameter="descripcion" Type="System.String" DbType="Text" />
+    <Parameter Name="Precio" Parameter="precio" Type="System.Double" DbType="Float" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IdFarmacia" Parameter="idFarmacia" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Modificar" Method="Modificar">
+    <Parameter Name="IdProducto" Parameter="idProducto" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Tipo" Parameter="tipo" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Descripcion" Parameter="descripcion" Type="System.String" DbType="Text" />
+    <Parameter Name="Precio" Parameter="precio" Type="System.Double" DbType="Float" />
+    <Parameter Name="Cantidad" Parameter="cantidad" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IdFarmacia" Parameter="idFarmacia" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Mostrar" Method="Mostrar">
+    <ElementType Name="MostrarResult">
+      <Column Name="IdProducto" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="Tipo" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="Descripcion" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Precio" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="Cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdFarmacia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.AgregarEmpleados" Method="AgregarEmpleados">
+    <Parameter Name="IdEmpleado" Parameter="idEmpleado" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Edad" Parameter="edad" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Domicilio" Parameter="domicilio" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Sueldo" Parameter="sueldo" Type="System.Decimal" DbType="Decimal(5,2)" />
+    <Parameter Name="HorarioEntrada" Parameter="horarioEntrada" Type="System.TimeSpan" DbType="Time" />
+    <Parameter Name="HorarioSalida" Parameter="horarioSalida" Type="System.TimeSpan" DbType="Time" />
+    <Parameter Name="Puesto" Parameter="puesto" Type="System.String" DbType="VarChar(80)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ModificarEmpleados" Method="ModificarEmpleados">
+    <Parameter Name="IdEmpleado" Parameter="idEmpleado" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Edad" Parameter="edad" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Domicilio" Parameter="domicilio" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Sueldo" Parameter="sueldo" Type="System.Decimal" DbType="Decimal(5,2)" />
+    <Parameter Name="HorarioEntrada" Parameter="horarioEntrada" Type="System.TimeSpan" DbType="Time" />
+    <Parameter Name="HorarioSalida" Parameter="horarioSalida" Type="System.TimeSpan" DbType="Time" />
+    <Parameter Name="Puesto" Parameter="puesto" Type="System.String" DbType="VarChar(80)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
