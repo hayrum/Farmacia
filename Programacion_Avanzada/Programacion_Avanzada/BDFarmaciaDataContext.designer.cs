@@ -43,18 +43,8 @@ namespace Programacion_Avanzada
 		{
 			OnCreated();
 		}
-
-        internal void AgregarEmpleados(int idEmpleado, string nombre, int edad, string domicilio, decimal sueldo, DateTime horarioEntrada, DateTime horarioSalida, string puesto)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal void AgregarEmpleados(int idEmpleado, string nombre, int edad, string domicilio, decimal sueldo, DateTime horarioEntrada, string puesto)
-        {
-            throw new NotImplementedException();
-        }
-
-        public BDFarmaciaDataContextDataContext(System.Data.IDbConnection connection) : 
+		
+		public BDFarmaciaDataContextDataContext(System.Data.IDbConnection connection) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();
@@ -93,17 +83,17 @@ namespace Programacion_Avanzada
 			return ((ISingleResult<MostrarResult>)(result.ReturnValue));
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.AgregarEmpleados")]
-		public int AgregarEmpleados([global::System.Data.Linq.Mapping.ParameterAttribute(Name="IdEmpleado", DbType="Int")] System.Nullable<int> idEmpleado, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Nombre", DbType="VarChar(80)")] string nombre, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Edad", DbType="Int")] System.Nullable<int> edad, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Domicilio", DbType="VarChar(100)")] string domicilio, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Sueldo", DbType="Decimal(5,2)")] System.Nullable<decimal> sueldo, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="HorarioEntrada", DbType="Time")] System.Nullable<System.TimeSpan> horarioEntrada, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="HorarioSalida", DbType="Time")] System.Nullable<System.TimeSpan> horarioSalida, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Puesto", DbType="VarChar(80)")] string puesto)
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.AgregarEmpleado")]
+		public int AgregarEmpleado([global::System.Data.Linq.Mapping.ParameterAttribute(Name="IdEmpleado", DbType="Int")] System.Nullable<int> idEmpleado, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Usuario", DbType="VarChar(80)")] string usuario, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="NombreEmpleado", DbType="VarChar(80)")] string nombreEmpleado, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Contrasena", DbType="VarChar(80)")] string contrasena)
 		{
-			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), idEmpleado, nombre, edad, domicilio, sueldo, horarioEntrada, horarioSalida, puesto);
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), idEmpleado, usuario, nombreEmpleado, contrasena);
 			return ((int)(result.ReturnValue));
 		}
 		
-		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.ModificarEmpleados")]
-		public int ModificarEmpleados([global::System.Data.Linq.Mapping.ParameterAttribute(Name="IdEmpleado", DbType="Int")] System.Nullable<int> idEmpleado, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Nombre", DbType="VarChar(80)")] string nombre, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Edad", DbType="Int")] System.Nullable<int> edad, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Domicilio", DbType="VarChar(100)")] string domicilio, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Sueldo", DbType="Decimal(5,2)")] System.Nullable<decimal> sueldo, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="HorarioEntrada", DbType="Time")] System.Nullable<System.TimeSpan> horarioEntrada, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="HorarioSalida", DbType="Time")] System.Nullable<System.TimeSpan> horarioSalida, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Puesto", DbType="VarChar(80)")] string puesto)
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.ModificarEmpleado")]
+		public int ModificarEmpleado([global::System.Data.Linq.Mapping.ParameterAttribute(Name="IdEmpleado", DbType="Int")] System.Nullable<int> idEmpleado, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Usuario", DbType="VarChar(80)")] string usuario, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="NombreEmpleado", DbType="VarChar(80)")] string nombreEmpleado, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="Contrasena", DbType="VarChar(80)")] string contrasena)
 		{
-			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), idEmpleado, nombre, edad, domicilio, sueldo, horarioEntrada, horarioSalida, puesto);
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), idEmpleado, usuario, nombreEmpleado, contrasena);
 			return ((int)(result.ReturnValue));
 		}
 	}

@@ -16,7 +16,7 @@ namespace Programacion_Avanzada
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Empleados());
+            Application.Run(new Inventario());
         }
     }
 }

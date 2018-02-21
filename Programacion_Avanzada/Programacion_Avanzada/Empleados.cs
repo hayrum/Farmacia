@@ -33,15 +33,11 @@ namespace Programacion_Avanzada
         public void Agregar()
         {
             int idEmpleado = Convert.ToInt32(txtIdEmpleado.Text);
-            string nombre = txtNombre.Text;
-            int edad = Convert.ToInt32(txtEdad.Text);
-            string domicilio = txtDomicilio.Text;
-            decimal sueldo = decimal.Parse(txtSueldo.Text);
-            string puesto = txtPuesto.Text;
-            DateTime horarioEntrada = Convert.ToDateTime(dateTimeHorarioEntrada.Value);
-            DateTime horarioSalida = Convert.ToDateTime(dateTimeHorarioSalida.Value);
+            string usuario = txtUsuario.Text;
+            string nombreEmpleado = txtEmpleado.Text;
+            string contraseña = txtContraseña.Text;
 
-            objBD.AgregarEmpleados(idEmpleado, nombre, edad, domicilio, sueldo, horarioEntrada, horarioSalida, puesto);
+            objBD.AgregarEmpleado(idEmpleado, usuario, nombreEmpleado, contraseña);
             MessageBox.Show("Registro insertado correctamente", "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Mostrar();
             ClaseEmpleados Limpiar = new ClaseEmpleados();
@@ -51,6 +47,11 @@ namespace Programacion_Avanzada
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             Agregar();
+        }
+
+        private void txtEmpleado_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

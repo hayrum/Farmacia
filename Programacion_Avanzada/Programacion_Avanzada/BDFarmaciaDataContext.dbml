@@ -31,26 +31,18 @@
       <Column Name="IdFarmacia" Type="System.Int32" DbType="Int" CanBeNull="true" />
     </ElementType>
   </Function>
-  <Function Name="dbo.AgregarEmpleados" Method="AgregarEmpleados">
+  <Function Name="dbo.AgregarEmpleado" Method="AgregarEmpleado">
     <Parameter Name="IdEmpleado" Parameter="idEmpleado" Type="System.Int32" DbType="Int" />
-    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(80)" />
-    <Parameter Name="Edad" Parameter="edad" Type="System.Int32" DbType="Int" />
-    <Parameter Name="Domicilio" Parameter="domicilio" Type="System.String" DbType="VarChar(100)" />
-    <Parameter Name="Sueldo" Parameter="sueldo" Type="System.Decimal" DbType="Decimal(5,2)" />
-    <Parameter Name="HorarioEntrada" Parameter="horarioEntrada" Type="System.TimeSpan" DbType="Time" />
-    <Parameter Name="HorarioSalida" Parameter="horarioSalida" Type="System.TimeSpan" DbType="Time" />
-    <Parameter Name="Puesto" Parameter="puesto" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Usuario" Parameter="usuario" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="NombreEmpleado" Parameter="nombreEmpleado" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Contrasena" Parameter="contrasena" Type="System.String" DbType="VarChar(80)" />
     <Return Type="System.Int32" />
   </Function>
-  <Function Name="dbo.ModificarEmpleados" Method="ModificarEmpleados">
+  <Function Name="dbo.ModificarEmpleado" Method="ModificarEmpleado">
     <Parameter Name="IdEmpleado" Parameter="idEmpleado" Type="System.Int32" DbType="Int" />
-    <Parameter Name="Nombre" Parameter="nombre" Type="System.String" DbType="VarChar(80)" />
-    <Parameter Name="Edad" Parameter="edad" Type="System.Int32" DbType="Int" />
-    <Parameter Name="Domicilio" Parameter="domicilio" Type="System.String" DbType="VarChar(100)" />
-    <Parameter Name="Sueldo" Parameter="sueldo" Type="System.Decimal" DbType="Decimal(5,2)" />
-    <Parameter Name="HorarioEntrada" Parameter="horarioEntrada" Type="System.TimeSpan" DbType="Time" />
-    <Parameter Name="HorarioSalida" Parameter="horarioSalida" Type="System.TimeSpan" DbType="Time" />
-    <Parameter Name="Puesto" Parameter="puesto" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Usuario" Parameter="usuario" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="NombreEmpleado" Parameter="nombreEmpleado" Type="System.String" DbType="VarChar(80)" />
+    <Parameter Name="Contrasena" Parameter="contrasena" Type="System.String" DbType="VarChar(80)" />
     <Return Type="System.Int32" />
   </Function>
 </Database>
